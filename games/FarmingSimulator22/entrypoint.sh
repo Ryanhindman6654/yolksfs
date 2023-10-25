@@ -54,6 +54,8 @@ for trick in $WINETRICKS_RUN; do
         winetricks -q $trick
 done
 
+nginx -c /home/container/nginx/nginx.conf
+
 # Replace Startup Variables
 MODIFIED_STARTUP=$(echo ${STARTUP} | sed -e 's/{{/${/g' -e 's/}}/}/g')
 echo ":/home/container$ ${MODIFIED_STARTUP}"
