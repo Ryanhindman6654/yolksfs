@@ -1,6 +1,6 @@
-# ------------------------------------------------------------
-# Generic Wine image based on Wine stable with nginx webserver 
-# ------------------------------------------------------------
+# -----------------------------------------------------------------------------
+# Wine image based on Wine stable with nginx webserver for Farming Simulator 22 
+# -----------------------------------------------------------------------------
 FROM            ghcr.io/parkervcp/yolks:debian
 
 LABEL           author="Michel Steinbusch" maintainer="contact@msteinbusch.nl"
